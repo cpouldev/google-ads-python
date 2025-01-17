@@ -21,7 +21,8 @@ RUN apt-get update -qy && \
         python3.9 \
         python3.10 \
         python3.11 \
-        python3.12 && \
+        python3.12 \
+        python3.13 && \
     curl -fsSo /tmp/get-pip.py https://bootstrap.pypa.io/get-pip.py && \
     python3.8 /tmp/get-pip.py && \
     python3.8 -m pip install --no-cache-dir --upgrade pip && \

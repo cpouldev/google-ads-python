@@ -14,7 +14,7 @@
 
 import nox
 
-PYTHON_VERSIONS = ["3.8", "3.9", "3.10", "3.11", "3.12"]
+PYTHON_VERSIONS = ["3.8", "3.9", "3.10", "3.11", "3.12", "3.13"]
 PROTOBUF_IMPLEMENTATIONS = ["python", "upb"]
 
 TEST_COMMAND = [
